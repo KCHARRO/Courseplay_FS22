@@ -21,39 +21,37 @@
     <text name="CP_error_unloader_to_far_away_from_field" text="Descargador muy lejos del campo."/>
     <text name="CP_error_start_position_to_far_away_from_field" text="Posición inicial muy lejos del campo."/>
     <text name="CP_error_giants_unloader_not_available" text="Descargador de Giants no disponible."/>
+    <text name="CP_error_fieldUnloadPosition_too_far_away_from_field" text="Posición de descarga demasiado lejos del campo."/>
+    <text name="CP_error_vehicle_too_far_away_from_field" text="Vehículo demasiado lejos del campo."/>
     <text name="CP_error_no_bunkerSilo_found" text="No se encontró ningún Silo."/>
+    <text name="CP_error_no_heap_found" text="No se encontró ningún montón."/>
+    <text name="CP_error_no_unload_trigger_found" text="No se encontró ningún punto de descarga."/>
+    <text name="CP_error_unload_target_to_far_away_from_silo" text="El punto de descarga elegido está demasiado lejos del silo."/>
     <!---->
     <!--AI job parameters-->
     <!---->
-    <text name="CP_jobParameters_title" text=""/>
-    <text name="CP_baleFinderJobParameters_title" text=""/>
-    <text name="CP_baleFinderJobParameters_baleWrapType_tooltip" text=""/>
-    <text name="CP_combineUnloaderJobParameters_title" text=""/>
-    <text name="CP_combineUnloaderJobParameters_useGiantsUnload_tooltip" text=""/>
-    <text name="CP_combineUnloaderJobParameters_unloadingStation_tooltip" text=""/>
-    <text name="CP_bunkerSiloJobParameters_title" text=""/>
-    <text name="CP_bunkerSiloJobParameters_drivingForwardsIntoSilo_tooltip" text=""/>
-    <text name="CP_bunkerSiloJobParameters_waitAtParkPosition_tooltip" text=""/>
-    <text name="CP_jobParameters_fieldPosition_title" text="Field position:"/>
-    <text name="CP_jobParameters_bunkerSiloPosition_title" text="Silo position:"/>
-    <text name="CP_jobParameters_parkPosition_title" text="Park position:"/>
-    <text name="CP_jobParameters_subTitle_startAt" text="Start at:"/>
-    <text name="CP_jobParameters_startAt_title" text="Start at:"/>
-    <text name="CP_jobParameters_startAt_tooltip" text="Where to start field work"/>
-    <text name="CP_jobParameters_startAt_nearest" text="nearest waypoint"/>
-    <text name="CP_jobParameters_startAt_first" text="first waypoint"/>
-    <text name="CP_jobParameters_startAt_last" text="last waypoint"/>
-    <text name="CP_jobParameters_startAt_bunkerSilo" text="Bunker silo mode"/>
-    <text name="CP_jobParameters_startAt_unload" text="unload combine"/>
-    <text name="CP_jobParameters_startAt_bales" text="collecting/wrapping bales"/>
-    <text name="CP_jobParameters_subTitle_laneOffset" text="Lane offset:"/>
-    <text name="CP_jobParameters_laneOffset_title" text="Lane offset:"/>
-    <text name="CP_jobParameters_laneOffset_tooltip" text="Lane offset"/>
-    <text name="CP_jobParameters_laneOffset_center" text="center"/>
-    <text name="CP_jobParameters_laneOffset_left" text="left(1)"/>
-    <text name="CP_jobParameters_laneOffset_right" text="right(1)"/>
-    <text name="CP_jobParameters_laneOffset_left_2" text="left(2)"/>
-    <text name="CP_jobParameters_laneOffset_right_2" text="right(2)"/>
+    <text name="CP_fieldWorkJobParameters_fieldPosition_title" text="Posición en campo:"/>
+    <text name="CP_fieldWorkJobParameters_bunkerSiloPosition_title" text="Posición en Silo:"/>
+    <text name="CP_fieldWorkJobParameters_parkPosition_title" text="Pos. Estac."/>
+    <text name="CP_fieldWorkJobParameters_subTitle_startAt" text="Comience en:"/>
+    <text name="CP_fieldWorkJobParameters_startAt_title" text="Comience en:"/>
+    <text name="CP_fieldWorkJobParameters_startAt_tooltip" text="Dónde comenzar el trabajo de campo"/>
+    <text name="CP_fieldWorkJobParameters_startAt_nearest" text="Punto más cercano"/>
+    <text name="CP_fieldWorkJobParameters_startAt_first" text="Primer punto"/>
+    <text name="CP_fieldWorkJobParameters_startAt_last" text="Último punto"/>
+    <text name="CP_fieldWorkJobParameters_startAt_bunkerSilo" text="Modo Trabajo en Silo"/>
+    <text name="CP_fieldWorkJobParameters_startAt_siloLoader" text="Modo Carga de silo"/>
+    <text name="CP_fieldWorkJobParameters_startAt_unload" text="Descargando Cosechadora/Picadora"/>
+    <text name="CP_fieldWorkJobParameters_startAt_unload_siloLoader" text="Descargar cargador de silo"/>
+    <text name="CP_fieldWorkJobParameters_startAt_bales" text="Recogiendo/Envolviendo fardos"/>
+    <text name="CP_fieldWorkJobParameters_subTitle_laneOffset" text="Desplazamiento de carril:"/>
+    <text name="CP_fieldWorkJobParameters_laneOffset_title" text="Desplazamiento de carril:"/>
+    <text name="CP_fieldWorkJobParameters_laneOffset_tooltip" text="Desplazamiento de carril"/>
+    <text name="CP_fieldWorkJobParameters_laneOffset_center" text="Centro"/>
+    <text name="CP_fieldWorkJobParameters_laneOffset_left" text="Izquierdo(1)"/>
+    <text name="CP_fieldWorkJobParameters_laneOffset_right" text="Derecho(1)"/>
+    <text name="CP_fieldWorkJobParameters_laneOffset_left_2" text="Izquierdo(2)"/>
+    <text name="CP_fieldWorkJobParameters_laneOffset_right_2" text="Derecho(2)"/>
     <!---->
     <!--AI bale finder job parameters-->
     <!---->
@@ -62,12 +60,21 @@
     <text name="CP_baleFinderJobParameters_baleWrapType_all_bales" text="Todas las pacas"/>
     <text name="CP_baleFinderJobParameters_baleWrapType_only_wrapped_bales" text="Solo envueltas"/>
     <text name="CP_baleFinderJobParameters_baleWrapType_only_not_wrapped_bales" text="Solo no envueltas"/>
+    <text name="CP_baleFinder_balesLeftover" text="Pacas restantes:"/>
     <!---->
     <!--AI combine unloader job parameters-->
     <!---->
+    <text name="CP_combineUnloaderJobParameters_subTitle_unloadTarget" text="Descargar: "/>
+    <text name="CP_combineUnloaderJobParameters_unloadTarget_title" text="Descargar:"/>
+    <text name="CP_combineUnloaderJobParameters_unloadTarget_combine" text="Combinada"/>
+    <text name="CP_combineUnloaderJobParameters_unloadTarget_siloLoader" text="Cargador"/>
     <text name="CP_combineUnloaderJobParameters_subTitle_giantsUnloader" text="Descargador de Giants:"/>
     <text name="CP_combineUnloaderJobParameters_useGiantsUnload_title" text="Usar Descargador de Giants:"/>
     <text name="CP_combineUnloaderJobParameters_unloadingStation_title" text="Estación de descarga:"/>
+    <text name="CP_combineUnloaderJobParameters_subTitle_fieldUnload" text="Descargador de Giants:"/>
+    <text name="CP_combineUnloaderJobParameters_useFieldUnload_title" text="Usar descargar en campo:"/>
+    <text name="CP_combineUnloaderJobParameters_fieldUnloadPosition_title" text="Posición de descarga en campo:"/>
+    <text name="CP_combineUnloaderJobParameters_unloadingTipSide_title" text="Lado de descarga del remolque:"/>
     <!---->
     <!--AI bunker silo worker job parameters-->
     <!---->
@@ -79,6 +86,18 @@
     <text name="CP_bunkerSiloJobParameters_waitAtParkPosition_title" text="Esperando por descargador:"/>
     <text name="CP_bunkerSiloJobParameters_waitAtParkPosition_silo" text="en Silo"/>
     <text name="CP_bunkerSiloJobParameters_waitAtParkPosition_parkPosition" text="en posición de estacionamiento"/>
+    <text name="CP_bunkerSiloJobParameters_stopWithCompactedSilo_title" text="Detener al 99% de compactación"/>
+    <text name="CP_bunkerSiloJobParameters_subTitle_stopWithCompactedSilo" text="Detener al 99% de compactación"/>
+    <text name="CP_bunkerSilo_compactionPercentage" text="Compactación de silos:"/>
+    <!---->
+    <!--AI silo lader worker job parameters-->
+    <!---->
+    <text name="CP_siloLoaderJobParameters_subTitle_loadPosition" text="Posición de carga"/>
+    <text name="CP_siloLoaderJobParameters_loadPosition_title" text="Posición de carga"/>
+    <text name="CP_siloLoader_fillLevelProgress" text="Progreso: "/>
+    <text name="CP_siloLoaderJobParameters_subTitle_unloading" text="Descarga en:"/>
+    <text name="CP_siloLoaderJobParameters_unloadAt_trailer" text="Remolque"/>
+    <text name="CP_siloLoaderJobParameters_unloadAt_unloadTrigger" text="Estación de descarga"/>
     <!---->
     <!--AI jobs-->
     <!---->
@@ -86,6 +105,7 @@
     <text name="CP_job_baleCollect" text="CP: Recoger/Envolver fardos"/>
     <text name="CP_job_combineUnload" text="CP: Descargar Cosechadora"/>
     <text name="CP_job_bunkerSilo" text="CP: Trabajo en Silo"/>
+    <text name="CP_job_siloLoader" text="CP: Carga de silos"/>
     <text name="CP_ai_page_generate_course" text="CP: Crear ruta de trabajo de campo."/>
     <text name="CP_ai_page_open_course_generator" text="CP: Abrir/Cerrar generador de rutas."/>
     <!---->
@@ -95,6 +115,43 @@
     <text name="CP_ai_messageError" text="Trabajador CP %s ha dejado de trabajar inesperadamente - ¡Abandonó el curso!"/>
     <text name="CP_ai_messageErrorWrongBaleWrapType" text="Trabajador CP %s ha dejado de trabajar inesperadamente - ¡No se encontraron pacas del tipo seleccionado!"/>
     <text name="CP_ai_messageErrorNoPathFound" text="Trabajador CP %s ha dejado de trabajar inesperadamente - ¡Ninguna Ruta encontrada!"/>
+    <text name="CP_ai_messageErrorGroundUnloadNotSupported" text="Trabajador CP %s ha dejado de trabajar inesperadamente: ¡No es posible descargar en el campo!"/>
+    <text name="CP_ai_messageErrorCutterNotSupported" text="Trabajador CP %s ha dejado de trabajar inesperadamente: - ¡Acoplar el cabezal es imposible!"/>
+    <text name="CP_ai_messageErrorAutomaticCutterAttachNotActive" text="Trabajador CP %s ha dejado de trabajar inesperadamente: - ¡Acoplamiento automático del cabezal desabilitado!"/>
+    <text name="CP_ai_messageErrorWrongMissionFruitType" text="Trabajador CP %s ha dejado de trabajar inesperadamente - ¡Tipo de relleno incorrecto para la misión seleccionada!"/>
+    <!---->
+    <!--AI fieldwork task descriptions-->
+    <!---->
+    <text name="CP_ai_taskDescriptionAttachHeader" text="Levanta el cabezal"/>
+    <!---->
+    <!--AI bale finder task descriptions-->
+    <!---->
+    <text name="CP_ai_taskDescriptionCollectsBales" text="Recoge fardos en el campo"/>
+    <text name="CP_ai_taskDescriptionWrapsBales" text="Envuelve fardos en el campo"/>
+    <!---->
+    <!--AI combine unloader task descriptions-->
+    <!---->
+    <text name="CP_ai_taskDescriptionUnloadCombine" text="Descarga la cosechadora"/>
+    <text name="CP_ai_taskDescriptionWaitsForTargetCombine" text="Espera por la cosechadora"/>
+    <text name="CP_ai_taskDescriptionUnloadSiloLoader" text="Descarga el cargador del silo"/>
+    <text name="CP_ai_taskDescriptionWaitsForTargetSiloLoader" text="Espera por el cargador del silo"/>
+    <text name="CP_ai_taskDescriptionUnloadingToHeap" text="Descarga a un montón"/>
+    <text name="CP_ai_taskDescriptionUnloadingToTrailer" text="Descarga en un remolque"/>
+    <text name="CP_ai_taskDescriptionUnloadingWithGiants" text="Descarga con un trabajador de Giants"/>
+    <!---->
+    <!--AI silo worker task descriptions-->
+    <!---->
+    <text name="CP_ai_taskDescriptionWorksInTheSilo" text="Trabaja en el silo"/>
+    <text name="CP_ai_taskDescriptionWaitsForUnloaders" text="Espera por un descargador"/>
+    <!---->
+    <!--AI silo loader task descriptions-->
+    <!---->
+    <text name="CP_ai_taskDescriptionWaitsForTrailer" text="Espera por un remolque"/>
+    <text name="CP_ai_taskDescriptionUnloadingToTrigger" text="Descarga a un disparador de descarga"/>
+    <!---->
+    <!--Hud settings-->
+    <!---->
+    <text name="CP_hud_settings_selectedJob_title" text="TODO: Selected Job:"/>
     <!---->
     <!--Vehicle settings-->
     <!---->
@@ -123,6 +180,8 @@
     <text name="CP_vehicle_setting_allowPathfinderTurns_tooltip" text="Permite usar el buscador de caminos en giros, por ejemplo, para evitar obstáculos y frutas."/>
     <text name="CP_vehicle_setting_foldImplementAtEnd_title" text="Plegar Herramientas al final de la ruta"/>
     <text name="CP_vehicle_setting_foldImplementAtEnd_tooltip" text="Habilita/Deshabilita el plegado automático de herramientas al final de la ruta."/>
+    <text name="CP_vehicle_setting_returnToStart_title" text="Regresar al Punto de Inicio."/>
+    <text name="CP_vehicle_setting_returnToStart_tooltip" text="Regresa al Punto de Inicio al terminar el trabajo."/>
     <text name="CP_vehicle_setting_raiseImplementLate_title" text="Elevar Herramientas"/>
     <text name="CP_vehicle_setting_raiseImplementLate_tooltip" text="Elevar Herramientas antes o después del siguiente giro."/>
     <text name="CP_vehicle_setting_raiseImplementLate_early" text="Antes"/>
@@ -137,8 +196,12 @@
     <text name="CP_vehicle_setting_avoidFruit_tooltip" text="El conductor intentará evitar conducir sobre los cultivos"/>
     <text name="CP_vehicle_setting_toolOffsetX_title" text="Desp. Herramienta Izq/Der"/>
     <text name="CP_vehicle_setting_toolOffsetX_tooltip" text="Desp. Herramienta Izq/Der"/>
-    <text name="CP_vehicle_setting_toolOffsetZ_title" text="Tool offset vertical"/>
-    <text name="CP_vehicle_setting_toolOffsetZ_tooltip" text="Tool offset vertical"/>
+    <text name="CP_vehicle_setting_baleCollectorOffset_title" text="Compensación de recogida de pacas"/>
+    <text name="CP_vehicle_setting_baleCollectorOffset_tooltip" text="Compensación para el recogedor de pacas"/>
+    <text name="CP_vehicle_setting_combineOffsetX_title" text="Desp. Adelante/Atrás"/>
+    <text name="CP_vehicle_setting_combineOffsetX_tooltip" text="Desplazamiento para tubería cosechadora con avance(+) y retroceso(-)"/>
+    <text name="CP_vehicle_setting_combineOffsetZ_title" text="Desp. Adelante/Atrás"/>
+    <text name="CP_vehicle_setting_combineOffsetZ_tooltip" text="Desplazamiento para tubería cosechadora con avance(+) y retroceso(-)"/>
     <text name="CP_vehicle_setting_fullThreshold_title" text="Vaciar al estar al:"/>
     <text name="CP_vehicle_setting_fullThreshold_tooltip" text="TODO"/>
     <text name="CP_vehicle_setting_useAdditiveFillUnit_title" text="Comprobar Aditivo de Ensilaje."/>
@@ -149,12 +212,20 @@
     <text name="CP_vehicle_setting_convoyDistance_tooltip" text="Establece la distancia entre vehículos. Valor: 40 - 400"/>
     <text name="CP_vehicle_setting_debugActive_title" text="Depurar vehículo"/>
     <text name="CP_vehicle_setting_debugActive_tooltip" text="Habilita/Desabilita la depuración para este vehículo."/>
+    <text name="CP_vehicle_setting_refillOnTheField_title" text="Rellenar herramienta"/>
+    <text name="CP_vehicle_setting_refillOnTheField_tooltip" text="Relleno de herramienta en el campo"/>
+    <text name="CP_vehicle_setting_refillOnTheField_waiting" text="Esperando"/>
+    <text name="CP_vehicle_setting_refillOnTheField_active" text="Activo"/>
     <!---->
     <!--Vehicle bunker silo settings-->
     <!---->
     <text name="CP_vehicle_setting_subTitle_bunkerSilo" text="Ajustes de Trabajo en Silo"/>
     <text name="CP_vehicle_setting_bunkerSiloWorkWidth_title" text="Ancho de trabajo en el silo"/>
     <text name="CP_vehicle_setting_bunkerSiloWorkWidth_tooltip" text="Ajusta el ancho de trabajo en el silo. Valor: 0 - 50"/>
+    <text name="CP_vehicle_setting_levelerHeightOffset_title" text="Conpensación de altura del nivelador"/>
+    <text name="CP_vehicle_setting_levelerHeightOffset_tooltip" text="Compensa la altura del nivelador respecto al suelo. Value: 0 - 1"/>
+    <text name="CP_vehicle_setting_loadingShovelHeightOffset_title" text="Compensación de altura de la pala.  Valor: -1 - 1"/>
+    <text name="CP_vehicle_setting_loadingShovelHeightOffset_tooltip" text="Compensa la altura de pala respecto al suelo. Valor: -1 - 1"/>
     <!---->
     <!--Vehicle settings speed-->
     <!---->
@@ -180,6 +251,8 @@
     <!---->
     <!--Vehicle settings combine-->
     <!---->
+    <text name="CP_vehicle_setting_automaticCutterAttach_title" text="Acoplamiento automático del cabezal"/>
+    <text name="CP_vehicle_setting_automaticCutterAttach_tooltip" text="Permite la conexión automática de un cabezal, que debe conectarse como un remolque o en un remolque para cabezales separado."/>
     <text name="CP_vehicle_setting_pipeAlwaysUnfold_title" text="Desplegar siempre el tubo"/>
     <text name="CP_vehicle_setting_pipeAlwaysUnfold_tooltip" text="Despliegue siempre el tubo cuando la cosechadora esté llena y esperando el descargador."/>
     <text name="CP_vehicle_setting_stopForUnload_title" text="Detener durante la descarga"/>
@@ -190,6 +263,8 @@
     <text name="CP_vehicle_setting_unloadOnFirstHeadland_tooltip" text="La cosechadora llamará al descargador en primera cabecera."/>
     <text name="CP_vehicle_setting_strawSwath_title" text="Franja de paja"/>
     <text name="CP_vehicle_setting_strawSwath_tooltip" text="Habilitar/Deshabilitar la franja de paja en cabeceras."/>
+    <text name="CP_vehicle_setting_callUnloaderPercent_title" text="Llame al descargador al"/>
+    <text name="CP_vehicle_setting_callUnloaderPercent_tooltip" text="Llame al descargador cuando el nivel de llenado de la cosechadora esté por encima de este valor."/>
     <text name="CP_vehicle_setting_strawSwath_onlyCenter" text="Cabeceras deshabilitadas"/>
     <!---->
     <!--Course generator settings-->
@@ -198,7 +273,7 @@
     <text name="CP_vehicle_courseGeneratorSetting_subTitle_basic" text="Básicos"/>
     <text name="CP_vehicle_courseGeneratorSetting_subTitle_headland" text="Cabeceras"/>
     <text name="CP_vehicle_courseGeneratorSetting_subTitle_center" text="Centro"/>
-    <text name="CP_vehicle_courseGeneratorSetting_subTitle_advanced" text="advanced"/>
+    <text name="CP_vehicle_courseGeneratorSetting_subTitle_island" text="Islas"/>
     <text name="CP_vehicle_courseGeneratorSetting_workWidth_title" text="Ancho de trabajo"/>
     <text name="CP_vehicle_courseGeneratorSetting_workWidth_tooltip" text="Ancho de trabajo. Valor: 0 - 50"/>
     <text name="CP_vehicle_courseGeneratorSetting_numberOfHeadlands_title" text="Número de cabeceras"/>
@@ -209,41 +284,60 @@
     <text name="CP_vehicle_courseGeneratorSetting_fieldMargin_tooltip" text="Valores(+) reducen el tamaño del campo para agregar un búfer alrededor del área trabajada, los (-) aumentan el área trabajada más allá del límite del campo.  Valor: -2 - 5.8"/>
     <text name="CP_vehicle_courseGeneratorSetting_rowsToSkip_title" text="Filas a omitir"/>
     <text name="CP_vehicle_courseGeneratorSetting_rowsToSkip_tooltip" text="Filas a omitir al cambiar a la siguiente fila Arriba/Abajo. Valor: 0 - 6"/>
+    <text name="CP_vehicle_courseGeneratorSetting_numberOfCircles_title" text="Number of circles"/>
+    <text name="CP_vehicle_courseGeneratorSetting_numberOfCircles_tooltip" text="Number of circles for racetrack. Value: 1 - 12"/>
     <text name="CP_vehicle_courseGeneratorSetting_rowsPerLand_title" text="Filas por bloques"/>
     <text name="CP_vehicle_courseGeneratorSetting_rowsPerLand_tooltip" text="Cuando el modo central es 'Circular', habrá esta cantidad de filas en cada bloque. Valor: 0 - 24"/>
-    <text name="CP_vehicle_courseGeneratorSetting_isClockwise_title" text="Headland direction"/>
-    <text name="CP_vehicle_courseGeneratorSetting_isClockwise_tooltip" text="Should the vehicle drive clockwise or counterclockwise on the headland"/>
-    <text name="CP_vehicle_courseGeneratorSetting_isClockwise_clockwise" text="clockwise"/>
-    <text name="CP_vehicle_courseGeneratorSetting_isClockwise_counterclockwise" text="counterclockwise"/>
+    <text name="CP_vehicle_courseGeneratorSetting_headlandClockwise_title" text="Dirección de cabeceras"/>
+    <text name="CP_vehicle_courseGeneratorSetting_headlandClockwise_tooltip" text="Si el vehículo conduce en sentido horario o en sentido antihorario en las cabeceras."/>
+    <text name="CP_vehicle_courseGeneratorSetting_centerClockwise_title" text="Dirección en centro del curso"/>
+    <text name="CP_vehicle_courseGeneratorSetting_centerClockwise_tooltip" text="Si el vehículo conduce en sentido horario o en sentido antihorario en el centro del curso."/>
+    <text name="CP_vehicle_courseGeneratorSetting_islandHeadlandClockwise_title" text="Dirección en islas"/>
+    <text name="CP_vehicle_courseGeneratorSetting_islandHeadlandClockwise_tooltip" text="Si el vehículo conduce en sentido horario o en sentido antihorario en las cabeceras de las islas."/>
+    <text name="CP_vehicle_courseGeneratorSetting_headlandClockwise_clockwise" text="horario"/>
+    <text name="CP_vehicle_courseGeneratorSetting_headlandClockwise_counterclockwise" text="antihorario"/>
+    <text name="CP_vehicle_courseGeneratorSetting_centerClockwise_clockwise" text="horario"/>
+    <text name="CP_vehicle_courseGeneratorSetting_centerClockwise_counterclockwise" text="antihorario"/>
+    <text name="CP_vehicle_courseGeneratorSetting_islandHeadlandClockwise_clockwise" text="horario"/>
+    <text name="CP_vehicle_courseGeneratorSetting_islandHeadlandClockwise_counterclockwise" text="atihorario"/>
     <text name="CP_vehicle_courseGeneratorSetting_centerMode_title" text="Centro del campo"/>
     <text name="CP_vehicle_courseGeneratorSetting_centerMode_tooltip" text="Centro del campo"/>
     <text name="CP_vehicle_courseGeneratorSetting_centerMode_up_down" text="Arriba/abajo"/>
     <text name="CP_vehicle_courseGeneratorSetting_centerMode_spiral" text="Espiral"/>
     <text name="CP_vehicle_courseGeneratorSetting_centerMode_circular" text="Circular"/>
     <text name="CP_vehicle_courseGeneratorSetting_centerMode_lands" text="Estrecho"/>
-    <text name="CP_vehicle_courseGeneratorSetting_headlandCornerType_title" text="Headland corners"/>
-    <text name="CP_vehicle_courseGeneratorSetting_headlandCornerType_tooltip" text="Headland corners"/>
-    <text name="CP_vehicle_courseGeneratorSetting_headlandCornerType_smooth" text="smooth"/>
-    <text name="CP_vehicle_courseGeneratorSetting_headlandCornerType_sharp" text="sharp"/>
-    <text name="CP_vehicle_courseGeneratorSetting_headlandCornerType_round" text="round"/>
-    <text name="CP_vehicle_courseGeneratorSetting_rowDirection_title" text="Up/down row direction"/>
-    <text name="CP_vehicle_courseGeneratorSetting_rowDirection_tooltip" text="Direction of the rows in the center of the field"/>
-    <text name="CP_vehicle_courseGeneratorSetting_rowDirection_automatic" text="automatic"/>
-    <text name="CP_vehicle_courseGeneratorSetting_rowDirection_longest_edge" text="longest edge"/>
-    <text name="CP_vehicle_courseGeneratorSetting_rowDirection_manual" text="manual"/>
+    <text name="CP_vehicle_courseGeneratorSetting_spiralFromInside_title" text="Espiral desde adentro"/>
+    <text name="CP_vehicle_courseGeneratorSetting_spiralFromInside_tooltip" text="Comienza la espiral desde adentro."/>
+    <text name="CP_vehicle_courseGeneratorSetting_evenRowWidth_title" text="Distribución de filas uniformes"/>
+    <text name="CP_vehicle_courseGeneratorSetting_evenRowWidth_tooltip" text="Reduce el ancho de trabajo para lograr una distribución uniforme en todas las filas."/>
+    <text name="CP_vehicle_courseGeneratorSetting_sharpenCorners_title" text="Afilar esquinas de cabecras"/>
+    <text name="CP_vehicle_courseGeneratorSetting_sharpenCorners_tooltip" text="Afilar esquinas de cabeceras no redondeadas"/>
+    <text name="CP_vehicle_courseGeneratorSetting_headlandsWithRoundCorners_title" text="Número de cabceras con esquinas redondas"/>
+    <text name="CP_vehicle_courseGeneratorSetting_headlandsWithRoundCorners_tooltip" text="Número de esquinas redondas, comenzando en la primera cabecera."/>
+    <text name="CP_vehicle_courseGeneratorSetting_turningRadius_title" text="Radio de esquina"/>
+    <text name="CP_vehicle_courseGeneratorSetting_turningRadius_tooltip" text="Radio de esquinas redondas, basado en el radio de giro del vehículo.Valor: 5 - 15"/>
+    <text name="CP_vehicle_courseGeneratorSetting_autoRowAngle_title" text="Dirección de filas Arriba/Abajo"/>
+    <text name="CP_vehicle_courseGeneratorSetting_autoRowAngle_tooltip" text="Dirección de las filas en el centro del campo."/>
+    <text name="CP_vehicle_courseGeneratorSetting_autoRowAngle_automatic" text="automático"/>
+    <text name="CP_vehicle_courseGeneratorSetting_autoRowAngle_manual" text="manual"/>
     <text name="CP_vehicle_courseGeneratorSetting_manualRowAngleDeg_title" text="Ángulo de filas Arriba/Abajo"/>
     <text name="CP_vehicle_courseGeneratorSetting_manualRowAngleDeg_tooltip" text="Ajusta el ángulo en grados de las filas Arriba/Abajo (0° es Norte) cuando está en modo manual. Valor: 0 - 175 Pasos: 5"/>
-    <text name="CP_vehicle_courseGeneratorSetting_islandBypassMode_title" text="Island bypass mode"/>
-    <text name="CP_vehicle_courseGeneratorSetting_islandBypassMode_tooltip" text="How the course should bypass islands in the field"/>
-    <text name="CP_vehicle_courseGeneratorSetting_islandBypassMode_none" text="no bypass"/>
-    <text name="CP_vehicle_courseGeneratorSetting_islandBypassMode_simple" text="simple"/>
-    <text name="CP_vehicle_courseGeneratorSetting_islandBypassMode_circle" text="circle"/>
+    <text name="CP_vehicle_courseGeneratorSetting_bypassIslands_title" text="Modo de omisión de islas"/>
+    <text name="CP_vehicle_courseGeneratorSetting_bypassIslands_tooltip" text="Cómo el curso debe omitir las islas en el campo."/>
+    <text name="CP_vehicle_courseGeneratorSetting_nIslandHeadlands_title" text="Cabeceras de islas"/>
+    <text name="CP_vehicle_courseGeneratorSetting_nIslandHeadlands_tooltip" text="Número de cabeceras alrededor de las islas. Value: 1 - 10"/>
     <text name="CP_vehicle_courseGeneratorSetting_startOnHeadland_title" text="Iniciar trabajo en"/>
     <text name="CP_vehicle_courseGeneratorSetting_startOnHeadland_tooltip" text="Iniciar trabajo en"/>
     <text name="CP_vehicle_courseGeneratorSetting_startOnHeadland_on_headland" text="Cabecera"/>
     <text name="CP_vehicle_courseGeneratorSetting_startOnHeadland_up_down_rows" text="Centro"/>
     <text name="CP_vehicle_courseGeneratorSetting_multiTools_title" text="Multi-Herramientas"/>
     <text name="CP_vehicle_courseGeneratorSetting_multiTools_tooltip" text="Número de vehículos en la misma ruta."/>
+    <text name="CP_vehicle_courseGeneratorSetting_useSameTurnWidth_title" text="Cambio de carriles"/>
+    <text name="CP_vehicle_courseGeneratorSetting_useSameTurnWidth_tooltip" text="Establece los carriles para que siempre cambien. Esto conduce a giros similares. Consulte el menú de ayuda para más detalles.más detalles."/>
+    <text name="CP_vehicle_courseGeneratorSetting_useBaseLineEdge_title" text="Forma de línea para el borde de campo "/>
+    <text name="CP_vehicle_courseGeneratorSetting_useBaseLineEdge_tooltip" text="Las filas siguen la curvatura del borde de campo más cercano al marcador de campo."/>
+    <text name="CP_vehicle_courseGeneratorSetting_narrowField_title" text="Campo estrecho"/>
+    <text name="CP_vehicle_courseGeneratorSetting_narrowField_tooltip" text="Genera las cabeceras solo en los bordes cortos del campo."/>
     <!---->
     <!--Vine course generator settings-->
     <!---->
@@ -263,8 +357,6 @@
     <!---->
     <text name="CP_global_setting_title" text="Ajustes globales"/>
     <text name="CP_global_setting_subTitle_general" text="Ajustes globales"/>
-    <text name="CP_global_setting_expertModeActive_title" text="Modo Experto"/>
-    <text name="CP_global_setting_expertModeActive_tooltip" text="Habilita/Desabilita el modo experto con características adicionales."/>
     <text name="CP_global_setting_wageModifier_title" text="Salarios de conductores CP"/>
     <text name="CP_global_setting_wageModifier_tooltip" text="Salarios de conductores CP en porcentaje"/>
     <text name="CP_global_setting_autoRepair_title" text="Reparación automática"/>
@@ -275,24 +367,33 @@
     <text name="CP_global_setting_autoRepair_always" text="Mantener siempre apunto"/>
     <text name="CP_global_setting_fuelThreshold_title" text="Límite de Combustible"/>
     <text name="CP_global_setting_fuelThreshold_tooltip" text="El conductor será liberado, si el porcentaje de combustible es menor."/>
+    <text name="CP_global_setting_waitForRefueling_title" text="Esperando repostar"/>
+    <text name="CP_global_setting_waitForRefueling_tooltip" text="El vehículo espera hasta que se reposte."/>
     <text name="CP_global_setting_brokenThreshold_title" text="Límite de ruptura"/>
     <text name="CP_global_setting_brokenThreshold_tooltip" text="El conductor será liberado, si el vehículo o un implemento está más desgastado. Si es 100% se desactiva."/>
+    <text name="CP_global_setting_stopThreshingDuringRain_title" text="Detener Cosechadoras, mientras llueve"/>
+    <text name="CP_global_setting_stopThreshingDuringRain_tooltip" text="Si está activo, entonces todas las Cosechadoras esperarán a que se detenga la lluvia."/>
+    <text name="CP_global_setting_fruitDestruction_title" text="Conductor CP: Destrucción de cultivos."/>
+    <text name="CP_global_setting_fruitDestruction_tooltip" text="Habilita/Deshabilita la destrucción de cultivos para los ayudantes."/>
+    <text name="CP_global_setting_fruitDestruction_only_cp" text="Solo activado para ayudantes CP"/>
+    <text name="CP_global_setting_fruitDestruction_all_helpers" text="Activado para todos los ayudantes"/>
+    <!---->
+    <!--Global settings user settings-->
+    <!---->
     <text name="CP_global_setting_subTitle_userSettings" text="Ajustes de usuario"/>
+    <text name="CP_global_setting_expertModeActive_title" text="Modo Experto"/>
+    <text name="CP_global_setting_expertModeActive_tooltip" text="Habilita/Desabilita el modo experto con características adicionales."/>
     <text name="CP_global_setting_controllerHudSelected_title" text="Hud compatible con gamepad"/>
     <text name="CP_global_setting_controllerHudSelected_tooltip" text="Usa el Hud, que se puede controlar con un Gamepad. Si está activado, no se mostrará el Mini-Hud."/>
     <text name="CP_global_setting_showActionEventHelp_title" text="Mostrar teclas en la ventana de F1"/>
     <text name="CP_global_setting_showActionEventHelp_tooltip" text="Muestra la asignación de teclas o botones en la ventana al presionar F1"/>
-    <text name="CP_global_setting_subTitle_pathfinder" text="Ajustes del generador de rutas"/>
-    <text name="CP_global_setting_maxDeltaAngleAtGoalDeg_title" text="Ángulo máximo a usar"/>
-    <text name="CP_global_setting_maxDeltaAngleAtGoalDeg_tooltip" text="Diferencia máxima de ángulo permitida en el destino, los valores más grandes son más rápidos pero menos precisos."/>
-    <text name="CP_global_setting_deltaAngleRelaxFactorDeg_title" text="Factor de ángulo Delta"/>
-    <text name="CP_global_setting_deltaAngleRelaxFactorDeg_tooltip" text="Factor para disminuir la precisión del generador de rutas con iteraciones fallidas, valores grandes son más rápidos."/>
     <text name="CP_global_setting_showsAllActiveCourses_title" text="Muestra todos las rutas activas"/>
     <text name="CP_global_setting_showsAllActiveCourses_tooltip" text="Muestra todos las rutas activas en el mapa del juego."/>
     <text name="CP_global_setting_drawOntoTheHudMap_title" text="Mostrar los Cursos en el Minimapa."/>
     <text name="CP_global_setting_drawOntoTheHudMap_tooltip" text="Habilita/Desabilita el dibujado de los Cursos en el Minimapa"/>
     <text name="CP_global_setting_infoTextHudActive_title" text="Ventana de Textos Informativos"/>
     <text name="CP_global_setting_infoTextHudActive_tooltip" text="Muestra la Ventana de Textos Informativos."/>
+    <text name="CP_global_setting_infoTextHudActive_active_hide_without_message" text="Activo, pero invisible sin mensaje."/>
     <text name="CP_global_setting_infoTextHudPlayerMouseActive_title" text="Evento del mouse del jugador"/>
     <text name="CP_global_setting_infoTextHudPlayerMouseActive_tooltip" text="Habilita/Deshabilita el evento del mouse del jugador para la visualización de texto de información fuera de un vehículo."/>
     <text name="CP_global_setting_preferCustomFields_title" text="Preferencia de Campos Personalizados"/>
@@ -301,6 +402,14 @@
     <text name="CP_global_setting_distanceUnit_tooltip" text="Unidades de distancia en Metros o Pies."/>
     <text name="CP_global_setting_distanceUnit_meter" text="Metros"/>
     <text name="CP_global_setting_distanceUnit_imperial" text="Pies"/>
+    <!---->
+    <!--Global settings pathfinder-->
+    <!---->
+    <text name="CP_global_setting_subTitle_pathfinder" text="Ajustes del generador de rutas"/>
+    <text name="CP_global_setting_maxDeltaAngleAtGoalDeg_title" text="Ángulo máximo a usar"/>
+    <text name="CP_global_setting_maxDeltaAngleAtGoalDeg_tooltip" text="Diferencia máxima de ángulo permitida en el destino, los valores más grandes son más rápidos pero menos precisos."/>
+    <text name="CP_global_setting_deltaAngleRelaxFactorDeg_title" text="Factor de ángulo Delta"/>
+    <text name="CP_global_setting_deltaAngleRelaxFactorDeg_tooltip" text="Factor para disminuir la precisión del generador de rutas con iteraciones fallidas, valores grandes son más rápidos."/>
     <!---->
     <!--Course manager-->
     <!---->
@@ -329,6 +438,7 @@ El curso se guarda automáticamente al cerrar el editor y anula el curso selecci
     <text name="CP_courseManager_noAccessError" text="¡Sin acceso a la carpeta (%s)!"/>
     <text name="CP_courseManager_targetIsNoFolderError" text="El destino no es una carpeta (%s)!"/>
     <text name="CP_courseManager_targetIsNoCourseError" text="El destino no es una ruta (%s)!"/>
+    <text name="CP_courseManager_invalidNameError" text="El nombre del curso (%s) no es válido!"/>
     <text name="CP_courseManager_basicSettings" text="Interacción con rutas."/>
     <text name="CP_courseManager_advancedSettings" text="Editar archivos."/>
     <text name="CP_courseManager_activate" text="Activar"/>
@@ -336,6 +446,7 @@ El curso se guarda automáticamente al cerrar el editor y anula el curso selecci
     <!--Course editor-->
     <!---->
     <text name="CP_editor_course_title" text="Editor de Cursos"/>
+    <text name="CP_editor_change_lane_offset" text="Change selected lane offset(%s)"/>
     <text name="CP_editor_delete_title" text="Borrar puntos de ruta"/>
     <text name="CP_editor_delete_primary_text" text="primario"/>
     <text name="CP_editor_delete_secondary_text" text="secundario"/>
@@ -375,10 +486,18 @@ El curso se guarda automáticamente al cerrar el editor y anula el curso selecci
     <text name="CP_infoTexts_drivingToSelfUnload" text="Conduciendo hacia el remolque"/>
     <text name="CP_infoTexts_outOfMoney" text="Sin dinero"/>
     <text name="CP_infoTexts_waitForRainToFinish" text="Esperando que termine la lluvia"/>
+    <text name="CP_infoTexts_waitForSnowToClear" text="Esperando a que desaparezca la nieve"/>
     <text name="CP_infoTexts_waitForUnloader" text="Esperando el descargador"/>
     <text name="CP_infoTexts_errorStopped" text="Dejó el curso, se detuvo"/>
     <text name="CP_infoTexts_wrongBaleWrapType" text="Tipo de paca incorrecta"/>
     <text name="CP_infoTexts_errorNoPathFound" text="Ningún camino encontrado"/>
+    <text name="CP_infoTexts_errorGroundUnloadNotSupported" text="No es posible volcar al suelo"/>
+    <text name="CP_infoTexts_errorCutterNotSupported" text="Cabezal no compatible"/>
+    <text name="CP_infoTexts_errorAutomaticCutterAttachNotActive" text="Acoplamiento automático del cabezal desactivado"/>
+    <text name="CP_infoTexts_errorWrongSeason" text="Temporada incorrecta para este cultivo"/>
+    <text name="CP_infoTexts_errorWrongMissionFruitType" text="Tipo de relleno incorrecto para la misión seleccionada"/>
+    <text name="CP_infoTexts_errorPalletsAreFull" text="Los palets están llenos"/>
+    <text name="CP_infoTexts_errorPalletsAreEmpty" text="Sin palets"/>
     <!---->
     <!--Custom field manager-->
     <!---->
@@ -386,16 +505,21 @@ El curso se guarda automáticamente al cerrar el editor y anula el curso selecci
     <text name="CP_customFieldManager_confirm_delete" text="¿Quieres eliminar el campo personalizado %s?"/>
     <text name="CP_customFieldManager_delete" text="Borrar Campo Personalizado"/>
     <text name="CP_customFieldManager_rename" text="Renombrar Campo Personalizado"/>
+    <text name="CP_customFieldManager_rename_error" text="Nombre de Campo Personalizado %s ya está en uso."/>
     <text name="CP_customFieldManager_edit" text="Editar Campo Personalizado"/>
     <text name="CP_customFieldManager_draw" text="Dibujar Campo Personalizado"/>
     <text name="CP_customFieldManager_draw_header" text="Dibujar las líneas del Campo con el Botón Derecho del Mouse."/>
+    <text name="CP_customFieldManager_draw_sub_header" text="Mantenga presionada la tecla Mayús izquierda para obtener una línea recta."/>
     <text name="CP_customFieldManager_save" text="Guardar Campo Personalizado"/>
     <text name="CP_controllerGui_startRecording" text="Iniciar grabación del campo personalizado."/>
     <text name="CP_controllerGui_stopRecording" text="Parar grabación del campo personalizado."/>
+    <text name="CP_controllerGui_pauseRecording" text="Pausar grabación del campo."/>
+    <text name="CP_controllerGui_unpauseRecording" text="Continuar grbación del campo."/>
     <!---->
     <!--Help menu-->
     <!---->
     <text name="CP_help_title" text="Courseplay"/>
+    <text name="CP_help_subTitle" text="Una Modificación para Farming Simulator 22"/>
     <text name="CP_help_page_blank" text=""/>
     <text name="CP_help_page_General_title" text="Información General"/>
     <text name="CP_help_page_GeneralBase_text" text="
@@ -443,7 +567,7 @@ Si está creando un CP: Trabajo de Campo, obtendrá acceso a la configuración d
 Ahora es posible iniciar el controlador directamente desde el menú. El ayudante de Giants conducirá hasta la posición de destino y desde allí el trabajo de CP se hará cargo automáticamente.
 Alternativamente, también puede iniciar el controlador desde el HUD si está cerca del campo con el vehículo o si usa el Mod AutoDrive para entregar el trabajo de CP cerca del campo.
 "/>
-    <text name="CP_help_page_courseGenerator_title" text="Course generator"/>
+    <text name="CP_help_page_courseGeneratorBasic_title" text="Course generator basics"/>
     <text name="CP_help_page_courseGeneratorBase_text" text="
 Cada curso de trabajo de campo es generado por el generador de cursos. Esta es una herramienta poderosa que le permite personalizar el curso generado según sus necesidades.
 Si es nuevo en esto, probablemente debería comenzar cambiando solo la configuración de la cantidad de cabecera.
@@ -479,11 +603,65 @@ Redondo tendrá en cuenta el radio de giro de los vehículos seleccionados actua
 - Dirección de la cabecera: en sentido horario o antihorario. Esto puede ser importante para combinadas y cosechadoras, dependiendo de qué lado esté la tubería o la cinta transportadora.
 - Superposición de cabeceras: Cuánto % de superposición deben tener todas las cabeceras. El primero no se superpondrá con el borde del campo, pero los interiores se superpondrán con su vecino.
 "/>
-    <text name="CP_help_page_courseGeneratorExtras_text" text="
-Field Margin explanation:
-Positive values reduce field size to add a buffer around the worked area in case you have obstacles near the field border.
-Negative values enlarge worked area beyond the field boundary to cover up field borders that are not perfectly detected.
+    <text name="CP_help_page_courseGeneratorCenter_text" text="
+For the center of the field, different strategies are available to do the work. Mostly the selected tool is a reason to choose a specific strategie over the other. The available strategies where created based on feedback and informations from our community.
+The simple up down strategie works almost every time for any tool. But it can be better to choose another, for example when harvesting with a combine, lands is a better way to keep the pipe outside of the fruit for a more efficient unloading.
+For Chopping, racetrack can be a better solution for less narrow turns to make the work for the unloader easier.
+Spirale is a better solution for towed harvester with an offset, to keep the tool in the fruit and the tractor outside.
 "/>
+    <text name="CP_help_page_courseGeneratorCenterFunctions_text" text="
+- Field center: There are different modes on how your field center pattern should look like. The classic and most used one is up/down.
+Spiral, Racetrack and Lands have their own specific advantages over the others. Lands for example will have the combine's pipe point out of the fruit most of the time to easier unload them.
+- Center direction: Works the same as the headland, but can now be set independantly.
+- Even row width: If the center of a field have a total width, that can't be evenly split over the work width of the tool, the 1st or last line will have a narrow rest work. To prevent this the width of each row gets reduced to have a even split over all lines.
+- Row direction: automatic mostly finds the best direction, but sometimes the longest edge fits better. If you are not happy with either one, choose manual and set the direction manually.
+- Row angle: When the row direction is set to manual, this setting appears and will tell the generator the direction of the rows.
+
+These settings appear only for specific settings you have done before:
+- Rows to skip: Appears when field center is set to &quot;up/down&quot;. This is a very helpful option to accelerate your work, as tools won't have to back up to turn into the next row.
+- Rows per Land: Appears when field center is set to &quot;lands&quot;. This has only impact when the field center is set to lands and will tell the generator how many rows each land should have. The more rows, the fewer lands will be generated.
+- Spiral from inside: Appears when field center is set to &quot;spiral&quot;.
+- Number of circles: Appears when field center is set to &quot;racetrack&quot;.
+"/>
+    <text name="CP_help_page_courseGeneratorCenterExampleUpdown_text" text="
+up/down
+"/>
+    <text name="CP_help_page_courseGeneratorCenterExampleLands_text" text="
+lands
+"/>
+    <text name="CP_help_page_courseGeneratorCenterExampleSpiral_text" text="
+spiral
+"/>
+    <text name="CP_help_page_courseGeneratorCenterExampleRacetrack_text" text="
+racetrack
+"/>
+    <text name="CP_help_page_courseGeneratorIsland_text" text="
+Driving arround the island is now only possible with a complete round arround it.
+Even in the new generator, limits for island too close to the field border.
+The work width of the tool is decisive if the island is too close or not.
+Like how many headlands do fit between the island and the field border.
+"/>
+    <text name="CP_help_page_courseGeneratorIslandFunctions_text" text="
+- Island bypass: Turns on or off the bypass of the island, if an island is found. This does not work for custom fields!
+- Island headlands: The amount of rounds arround the island can now be set indipendantly from the headland setting.
+- Island headland direction: In which direction the driver drives arround the island, to not have strange direction changes. This can be tricky to set up as it depends on the field and the rest of the course.
+"/>
+    <text name="CP_help_page_courseGeneratorExpert_text" text="
+Some settings are only visible, if you set the expert mode to active on the global courseplay settings.
+Before you play arround with those settings, you should make sure you know what the basic settings do.
+Some expert settings only work properly under some conditions.
+
+- Multiple Tools: This setting is used when you want more then just one vehicle to work on your course. As this gets a bit more complicated, there is a separate help topic for it.
+- Narrow field: Creates the headland only at two short edges of the field. In that case, it is not possible to keep your vehicle on the field on the longest edges at the headland.
+- Headland overlap: There is a default value that will always be used. This value can be changed with this setting. The overlap will be withing the field and won't overlap the field border.
+- Field margin: This setting lets you move the field border in- or outwards of the original border.
+- Use base line edge: A completly new feature, what only works on specific fields. If you have a field with a long radial border and place the field marker near it, the center line will follow that border.
+IMPORTANT NOTE: Should the generated course not be perfect or even bad, the selected edge or the field will not work with this feature. There also won't be an Update for this!
+"/>
+    <text name="CP_help_page_courseGeneratorHeadland_title" text="Course generator headland"/>
+    <text name="CP_help_page_courseGeneratorCenter_title" text="Course generator center"/>
+    <text name="CP_help_page_courseGeneratorIsland_title" text="Course generator island"/>
+    <text name="CP_help_page_courseGeneratorExpert_title" text="Course generator expert"/>
     <text name="CP_help_page_courseManager_title" text="Administrador de Cursos"/>
     <text name="CP_help_page_courseManagerBase_text" text="
 El administrador de cursos le permite guardar cursos y le permite cargar el curso guardado más tarde nuevamente.
@@ -519,27 +697,51 @@ Para eliminar un curso o directorio, haga clic en el botón Eliminar y luego en 
 Los directorios deben estar vacíos si desea eliminarlos.
 "/>
     <text name="CP_help_page_minihud_title" text="Mini HUD"/>
-    <text name="CP_help_page_minihud_text" text="
-A: Clicking on the vehicle name will open the vehicle setting menu.
-B: Selects the starting point where you want the helper to start.
-C: Clicking on the course name will open the AI menu.
-     If the vehicle is on a field then the course generator settings will also be opened.
-D: Starts or stops the helper. If the color is green then the CP helper is active.
-E: Shows the current waypoint / total waypoints. Clicking on it will open the course manager menu.
-F: Clicking on this icon opens the global settings menu.
-G: Closes the HUD.
-H: Decrease or increase the working width. A red line on your vehicle shows the current value.
-I: Value for horizontal offset, + left, - right.
-J: Copy and paste a course to a different vehicle.
-     Once the copy button was pressed, then the course can be pasted into a vehicle without a course when the icon turns green.
-K and L: Clicking on the text will reset your changes to the default values.
-M: Shows the copied course.
-N: This area shows the lane offset if you have a multi tool course loaded for convoy. 
-     Clicking on the text toggles the positions.
-O: Start/stop the recording of custom fields.
-P: Removes the course from the vehicle.
-Q: Changes the course visibility between: on, off and start/stop only.
-R: Removes the copied course from the clipboard.
+    <text name="CP_help_page_minihud_general_title" text="General"/>
+    <text name="CP_help_page_minihud_general_text" text="
+A: Mantenga presionado el botón izquierdo del mouse sobre el título para arrastrar el HUD a la posición que desee.  En el lado derecho se muestra la versión instalada y la X cerrará el HUD con un clic del mouse.
+B: Haga clic en el icono de Courseplay para acceder a la configuración global.
+C: En esta posición se muestra el nombre de su vehículo.  Al hacer clic en él, accederá al menú de configuración del vehículo..
+D: Estos símbolos son para: (1) eliminar el curso actualmente cargado, (2a) alternar cómo se mostrará el curso, (2b) si no hay ningún curso cargado, se muestra un botón de registro para registrar un curso en el borde del campo, (3) para iniciar o detener el ayudante.
+E: Este ícono de objetivo tiene diferentes opciones dependiendo del modo seleccionado, abre el Menú AI con el trabajo y puede colocar marcadores y configuraciones adicionales para el trabajo.  En el lado izquierdo del ícono, con un trabajo de campo en ejecución, se muestra el tiempo restante del curso.
+F: Haga clic en el texto para alternar los modos disponibles para sus herramientas actuales.
+G: Las configuraciones que se muestran debajo de esta línea dependen del trabajo actual.  Estos se explicarán con las siguientes imágenes.
+"/>
+    <text name="CP_help_page_minihud_fieldwork_title" text="Trabajo de campo"/>
+    <text name="CP_help_page_minihud_fieldwork_text" text="
+A: Haga clic para seleccionar dónde comenzar el trabajo.  Si se carga un recorrido multiherramienta, en el lado derecho puede seleccionar el carril.
+B: Muestra el nombre del curso cargado.  Si acaba de generar un curso, muestra 'curso temporal'.  En el lado derecho verá los puntos de ruta actuales/totales una vez que se inicie el trabajo.
+C: Al hacer clic en el texto se volverá a calcular el ancho de trabajo, o puede configurarlo manualmente a la derecha haciendo clic en +/-, o con la rueda del mouse sobre el número.
+D: Algunas herramientas necesitan un desplazamiento lateral.  Courseplay lo calculará automáticamente al hacer clic en el texto, o puedes cambiarlo manualmente al igual que el ancho de trabajo.
+E: Utilice el símbolo del lado derecho para copiar el curso actual al portapapeles.  El nombre del curso copiado se muestra a la izquierda.  Puede cargar el curso copiado en otro vehículo que aún no tiene.  Para eliminar el curso del portapapeles, haga clic en el símbolo de eliminación.
+"/>
+    <text name="CP_help_page_minihud_combineunload_title" text="Descargador de combinada"/>
+    <text name="CP_help_page_minihud_combineunload_text" text="
+A: Seleccione qué tipo de vehículo debe descargar el trabajador.  Esto resulta útil si trabaja en el mismo campo diferentes tipos, como por ejemplo una cosechadora y un cargador como ROPA Maus.
+B: Establezca el nivel de llenado (40% - 100%) que el trabajador debe conducir hasta el sitio de descarga.  Haga clic en +/- o use la rueda de desplazamiento sobre el número para cambiar.
+C: A veces, la posición del descargador debajo de la tubería no es perfecta.  Esto puede deberse al remolque o a la tubería de la cosechadora, en ocasiones provocado por la pendiente del campo.  Puede corregir manualmente la distancia a la cosechadora aquí.
+D: Igual que arriba, pero aquí puede ajustar la posición del descargador con respecto al tubo hacia adelante o hacia atrás.
+E: De manera similar a copiar un recorrido, aquí puede copiar las posiciones de los marcadores a otro vehículo.
+"/>
+    <text name="CP_help_page_minihud_balecollect_title" text="Recoger/Envolver pacas"/>
+    <text name="CP_help_page_minihud_balecollect_text" text="
+A: Fardos restantes en el campo.
+B: Tipo de fardos a recoger/envolver.
+C: Desplazamiento entre la línea central del tractor y la línea central del brazo del cargador.  Es posible que necesite ajustar esto para tractores más grandes (por ejemplo, con neumáticos más anchos).
+"/>
+    <text name="CP_help_page_minihud_siloloader_title" text="Cargador de silos"/>
+    <text name="CP_help_page_minihud_siloloader_text" text="
+A: Tamaño restante del montón en litros.
+B: Ancho de trabajo, igual que en el trabajo de campo.
+C: Courseplay necesita que la altura exacta del cucharón sobre el suelo esté configurada correctamente.  Dado que esta altura puede ser diferente para cada herramienta, puede verificarla y ajustarla con esta configuración.
+D: Al igual que con el descargador, puedes copiar las posiciones de los marcadores a otro vehículo.
+"/>
+    <text name="CP_help_page_minihud_siloworker_title" text="Trabajador de silo"/>
+    <text name="CP_help_page_minihud_siloworker_text" text="
+A: Al igual que con el cargador de silo, la altura del nivelador es fundamental.  Puedes ajustarlo aquí.
+B: Muestra el progreso de la compactación.  Al hacer clic en él, se alterna la opción para detener el controlador cuando se alcanza la compactación completa.
+C: Puede cambiar el ancho de trabajo cuando sea necesario aquí.
+D: Esta configuración le indica al trabajador que espere en el silo o en una posición de estacionamiento seleccionada cuando un descargador se acerca al silo.
 "/>
     <text name="CP_help_page_customField_title" text="Campos Personalizados"/>
     <text name="CP_help_page_customFieldRecord_text" text="
@@ -711,6 +913,7 @@ es evitar que una cosechadora llame a un descargador con un remolque casi lleno.
 - Puede usar las compensaciones en el HUD para ajustar la posición del descargador debajo del tubo de la cosechadora.
 
 "/>
+    <text name="CP_help_page_unloaderTrailer_title" text="Uso de remolques"/>
     <text name="CP_help_page_unloaderTrailer_text" text="
 Si utiliza un remolque para descargar, hay dos formas de transportar su cosecha a un silo o a un punto de venta: El Ayudante de Gigants
 o AutoDrive.
@@ -720,6 +923,7 @@ En este último caso, debe elegir la estación de descarga después de que el í
 
 Vaciar un remolque con AutoDrive funciona igual que usar un vagón de carga, consulte los tutoriales de AutoDrive en Internet.
 "/>
+    <text name="CP_help_page_unloaderAuger_title" text="Uso de vagones con sinfín"/>
     <text name="CP_help_page_unloaderAuger_text" text="
 Los vagones con sinfín son muy fáciles de usar.
 Al igual que con los remolques, utilice el icono de objetivo para elegir el campo donde desea descargar una Combinada o Cosechadora.
@@ -727,6 +931,15 @@ Para iniciar el Descargador,  colóquelo nuevamente en el campo o dentro de los 
 Si el vagón con sinfín está lleno, automáticamente buscará un remolque en el campo o cerca de él para sobrecargarlo.
 En caso de que el tráiler esté lleno y el vagón del sinfín aún no esté vacío, buscará otro remolque para descargarlo.
 Si no hay un remolque disponible, continuará descargando la cosechadora.
+"/>
+    <text name="CP_help_page_unloaderFieldUnload_title" text="Descargar en el campo."/>
+    <text name="CP_help_page_unloaderFieldUnload_text" text="
+La posición de descarga se puede seleccionar con el marcador de descarga.
+La posición debe estar en el mismo campo o cerca del borde del campo.
+Si el marcador apunta a un montón ya existente,
+entonces este montón se usa para descargar.
+La dirección del marcador se utiliza para la dirección de descarga.
+Además, para los remolques, se debe seleccionar un lado de descarga.
 "/>
     <text name="CP_help_page_bunker_title" text="Trabajador de Silos Búnker"/>
     <text name="CP_help_page_bunkerGeneral_text" text="
@@ -745,6 +958,54 @@ en blanco si está seleccionado.
 La posición de estacionamiento se establece con el marcador(posición de estacionamiento) que también se puede usar 
 para conducir allí con el Ayudante de Gigants antes de comenzar el trabajo real.
 "/>
+    <text name="CP_help_page_siloLoader_title" text="Carga de silos"/>
+    <text name="CP_help_page_siloLoaderGeneral_text" text="
+Con este trabajo es posible cargar montones en o cerca del campo.
+Además, es posible cargar desde un silo de búnker..
+El cargador se puede descargar con un descargador de Courseplay.
+"/>
+    <text name="CP_help_page_siloLoaderBasic_text" text="
+Para iniciar el marcador de carga, en el menú AI debe configurarse.
+El marcador detecta montones o silos y los resalta en el mapa.
+Ahora es posible iniciar el ayudante.
+"/>
+    <text name="CP_help_page_shovelLoader_title" text="Conductor de Cargador con Pala"/>
+    <text name="CP_help_page_shovelLoaderGeneral_text" text="
+Este modo habilita cargadores y tractores con cargador frontal. 
+Con una pala adjunta se puede recoger un montón del suelo o se puede realizar la carga desde un silo de búnker.
+El material recogido se puede descargar automáticamente en un remolque cercano o en una estación de descarga seleccionada como un BGA.
+La pala se moverá automáticamente a las posiciones correctas para cargar, descargar, etc.
+En caso de que el modo no sea visible directamente en el HUD, puede alternar la &quot;posición inicial&quot; hasta que aparezca el modo cargador.
+
+El ícono de objetivo en el HUD se puede usar para abrir el mapa de IA y seleccionar los objetivos de carga y descarga.
+El HUD también muestra el nivel de llenado sobrante del montón o silo, mientras el ayudante está trabajando.
+Si el objetivo de carga es un silo tipo búnker, es posible que sea necesario ajustar el ancho de trabajo para evitar golpear las paredes laterales del silo.
+
+La configuración de compensación de altura se utiliza para ajustar la altura sobre el suelo, ya que no todas las palas se pueden calcular correctamente. 
+Esto se debe verificar si la pala está demasiado baja para cargar y el conductor ya no puede girar o si la pala está demasiado alta y el nivel de llenado no llega al suelo.
+Si se cambia el valor, la pala se moverá automáticamente a la posición de carga para mostrar el impacto del desplazamiento.
+Para restablecer el desplazamiento, debe hacer clic en el texto de configuración en el HUD.  El valor se puede ajustar de +1 a -1 en 0,1 pasos.
+
+Las palas con cuchara de ensilaje se abrirán y cerrarán automáticamente para la carga y descarga.
+La pala para triturar remolacha azucarera también es completamente funcional.
+"/>
+    <text name="CP_help_page_shovelLoaderBasic_text" text="
+Para iniciar un asistente de cargador de ruedas, debe configurar las posiciones de carga y descarga haciendo clic en el icono de destino en el HUD.
+La posición de carga funciona igual que la del modo cargador.  Se creará un cuadrado azul alrededor del montón.
+
+La posición de descarga depende de si desea descargar en un remolque o en una estación de descarga.
+Si se selecciona descargar en el remolque, entonces se debe seleccionar el área donde se estacionará el remolque en el menú AI.
+El ayudante conducirá hasta cualquier remolque estacionado en el área.  La dirección del marcador no tiene ningún significado real.
+Si desea descargar en una estación de descarga, debe cambiar el objetivo y luego marcar el gatillo con la posición de descarga.
+"/>
+    <text name="CP_help_page_shovelLoaderTrigger_text" text="
+Seleccionar un disparador parece un poco complicado al principio, pero en realidad es realmente fácil.
+Cada edificio puede tener más de un disparador, por lo que debes elegir en cuál quieres descargar.
+Todos los activadores disponibles se mostrarán con una cruz naranja en el mapa AI.
+Para seleccionar uno, coloque el centro del marcador redondo en el centro de la cruz.
+La dirección de la flecha le indica al ayudante desde qué dirección se acercará al gatillo para descargar.
+Ahora su selección debería verse similar a la imagen.
+"/>
     <!---->
     <!--Input bindings-->
     <!---->
@@ -754,6 +1015,7 @@ para conducir allí con el Ayudante de Gigants antes de comenzar el trabajo real
     <text name="input_CP_DBG_CHANNEL_MENU_VISIBILITY" text="CP: Muestra el menú del canal de depuración Sí/No."/>
     <text name="input_CP_OPEN_CLOSE_VEHICLE_SETTING_DISPLAY" text="CP: Abrir/Cerrar GUI del vehículo."/>
     <text name="input_CP_START_STOP" text="CP: Iniciar/Detener conductor."/>
+    <text name="input_CP_CHANGE_SELECTED_JOB" text="CP: Change current selected job"/>
     <text name="input_CP_CHANGE_STARTING_POINT" text="CP: Cambia el punto de inicio."/>
     <text name="input_CP_CLEAR_COURSE" text="CP: Borra el curso cargado actualmente"/>
     <text name="input_CP_CHANGE_COURSE_VISIBILITY" text="Muestra el curso actual del vehículo"/>
